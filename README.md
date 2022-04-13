@@ -17,7 +17,7 @@ When writing a string to character device /dev/var5, count the number of letters
    cat /proc/devices | grep var5  ===> 508 var5
 5. Create a device node in the /dev directory according to the device number
    cd /dev
-   mknod var5 c 508 0
+  var5 c 508 0
    ls | grep var5  ===> var5
 
 ## Инструкция пользователя
