@@ -19,7 +19,7 @@ dev_t devno;
 #define  PROCFS_MAX_SIZE   256
 char proc_buffer[PROCFS_MAX_SIZE];
 char g_buffer[PROCFS_MAX_SIZE*10];
-static int major = 208;  
+static int major = 508;  
 static int minor = 0;
 static struct class *cls;
 static struct device *var5_device;
